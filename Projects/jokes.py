@@ -1,0 +1,7 @@
+print("What do you call fake spaghetti?")
+print("")
+print("An impasta!")
+print('-------------------------------------')
+print("RIP, boiling water.")
+print("")
+print("You will be mist!")
