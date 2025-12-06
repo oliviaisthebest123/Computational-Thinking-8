@@ -1,0 +1,92 @@
+name = input("what is your name: ")
+print(f"nice to meet you {name} welcome to my game")
+print("")
+game = input (f"{name} type 1: to play type 2: for other option: ")
+print("")
+if game == "1":
+    print("welcome to the game: ")
+else:
+    print("haha there is no other option you have to play, welcome to the game: ")
+print("")
+print ("this game is all about guessing. get the right answer and you move one get the wrong answer and you die!: ")
+print("")
+ready= input("ready to start: ")
+
+print("first question will be multiple choice: ")
+answer = ""
+while answer != "4":
+    print ("")
+    print (" an electric train is traveling north at 55 mph. the wind is blowing east at 30 mph. which direction does the wind blow ")
+    
+    answer= input("type 1: for east.  type 2: for north. type 3: for west. type 4 for there is no smoke: ")
+    print("")
+    if answer== "1": 
+
+        print ("YOU DIED!!!")
+
+        print("")
+
+    elif answer== "2":
+
+        print("WRONG! i thought you were smart: ")
+
+        print("")
+
+    elif answer== "3":
+
+        print("wrong! your really good at losing: ")
+
+        print("")
+
+    elif answer=="4":
+
+        print ("ding ding ding correct! you move on!")
+
+        print("")
+
+    else:
+
+         print("nice try, select a real option...")
+
+
+print(f" good job {name} your doing amazing but the next question will be much harder so get ready: ")
+print("")
+while answer != "1":
+    print (" what occurs once in a minute twice in a moment, but never in a thousand years?: ")
+
+    answer = input (" type 1: if the answer is the letter M.  type 2: if the answer is time: ")
+    print("")
+
+    if answer == "1": 
+
+        print("WOW!, your on a role keep it up")
+
+    elif answer =="2":
+
+        print ("you died!")
+
+    else:
+        print("nice try please select a real answer")
+
+print("")
+print(f"your doing great but this next one will really stump you so get ready {name}")
+print("")
+print("a boat is filled with people, yet there is not a single person on board. how is that possible? ")
+print("")
+print ("this question is not a multiple choice so you will have to come up with your own answer and i will give you hints: ")
+print("")
+answer = input("now type your answer: ")
+print("")
+
+while "married" not in answer:
+    print ("its ok i will give you a clue: the boat is full-so its not about being alone. try the other meaning of single. ")
+    print("")
+    answer = input ("try again, type your new answer here: ")
+
+print ("good job cant believe you got that right ")
+print("")
+print ("thank you for playing see you NEXT TIME!!! ")
+    
+
+
+        
