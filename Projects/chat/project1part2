@@ -16,7 +16,7 @@ print("first question will be multiple choice: ")
 answer = ""
 while answer != "4":
     print ("")
-    print (" an electric train is traveling north at 55 mph. the wind is blowing east at 30 mph. which direction does the wind blow ")
+    print (" an electric train is traveling north at 55 mph. the wind is blowing east at 30 mph. which direction does the smoke from the train blow")
     
     answer= input("type 1: for east.  type 2: for north. type 3: for west. type 4 for there is no smoke: ")
     print("")
@@ -118,4 +118,6 @@ while answer != "4":
 
     else:
         print (" please select a real answer ")
+
+    print ("thank you for playing the game come again soon! ")
     
