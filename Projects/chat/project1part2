@@ -85,8 +85,37 @@ while "married" not in answer:
 
 print ("good job cant believe you got that right ")
 print("")
-print ("thank you for playing see you NEXT TIME!!! ")
+leave = input("if you would like to stay and play more games press number 1: if you would like to leave the game press number 2: ")
+print("")
+
+if leave == "1":
+    print("thank you for pressing number 1: next game will start shortly ")
+
+elif leave == "2":
+    print ("you pressed number 2: but i know you really want to continue the game so here is the next question ")
+
+else:
+    print ("please select 1: or 2: ")
+print("")
+
+while answer != "4": 
+    print ("next question will be: you have one match and enter a dark room that contains an oil lamp, candle and a fireplace filled with wood. which do you light first?: ")
+ 
+    answer = input(" type 1: for the candle.  type 2: for the oil lamp.  type 3: for the fireplace.  type 4: for the match: ")
+    print("")
+    if answer == "1": 
+
+     print ("wrong you died! ")
+
+    elif answer == "2": 
+        print (" WRONG!!!")
+
+    elif answer == "3": 
+        print (" you died ")
+
+    elif answer == "4":
+        print (" CORRECT!!!! ")
+
+    else:
+        print (" please select a real answer ")
     
-
-
-        
