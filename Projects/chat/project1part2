@@ -2,6 +2,9 @@ name = input("what is your name: ")
 print(f"nice to meet you {name} welcome to my game")
 print("")
 
+
+correct = 0
+wrong = 0  
 game = input (f"{name} type 1: to play type 2: for other option: ")
 print("")
 if game == "1":
@@ -24,31 +27,32 @@ while answer != "4":
     if answer== "1": 
 
         print ("YOU DIED!!!")
-
         print("")
+        wrong = wrong +1
 
     elif answer== "2":
 
         print("WRONG! i thought you were smart: ")
-
         print("")
+
+        wrong = wrong +1
 
     elif answer== "3":
 
         print("wrong! your really good at losing: ")
-
         print("")
+        wrong = wrong +1
 
     elif answer=="4":
 
         print ("ding ding ding correct! you move on!")
-
         print("")
+        correct = correct +1
 
     else:
 
          print("nice try, select a real option...")
-
+        
 
 
 print(f" good job {name} your doing amazing but the next question will be much harder so get ready: ")
@@ -63,9 +67,13 @@ while answer != "1":
 
         print("WOW!, your on a role keep it up")
 
+        correct = correct +1
+
     elif answer =="2":
 
         print ("you died!")
+
+        wrong = wrong +1
 
     else:
         print("nice try please select a real answer")
@@ -85,7 +93,12 @@ while "married" not in answer:
     print("")
     answer = input ("try again, type your new answer here: ")
 
+    wrong = wrong +1
+
 print ("good job cant believe you got that right ")
+
+correct = correct +1
+
 print("")
 leave = input("if you would like to stay and play more games press number 1: if you would like to leave the game press number 2: ")
 print("")
@@ -106,20 +119,34 @@ while answer != "4":
     answer = input(" type 1: for the candle.  type 2: for the oil lamp.  type 3: for the fireplace.  type 4: for the match: ")
     print("")
     if answer == "1": 
+        print ("wrong you died! ")
 
-     print ("wrong you died! ")
+        wrong = wrong +1
 
     elif answer == "2": 
         print (" WRONG!!!")
 
+        wrong = wrong +1
+
     elif answer == "3": 
         print (" you died ")
+
+        wrong = wrong +1
 
     elif answer == "4":
         print (" CORRECT!!!! ")
 
+        correct =correct +1
+
     else:
         print (" please select a real answer ")
+    
+    if wrong == 0:
+        print("you cheater, no way you got all right without some help (chatgpt anyone?). jk good job")
+    elif wrong == 1:
+        print("you almost got all right, but you didn't. you got one wrong. great job")
+    else:
+        print(f"well, you tried your best, but got {wrong} wrong. you need some practice")
 
-    print ("thank you for playing the game come again soon! ")
+    print ("thank you for playing come again soon!!!! ")
     
