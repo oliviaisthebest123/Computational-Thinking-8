@@ -1,6 +1,7 @@
 name = input("what is your name: ")
 print(f"nice to meet you {name} welcome to my game")
 print("")
+
 game = input (f"{name} type 1: to play type 2: for other option: ")
 print("")
 if game == "1":
@@ -47,6 +48,7 @@ while answer != "4":
     else:
 
          print("nice try, select a real option...")
+
 
 
 print(f" good job {name} your doing amazing but the next question will be much harder so get ready: ")

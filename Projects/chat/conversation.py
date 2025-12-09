@@ -26,3 +26,6 @@ else:
 location = input("now that we have all the information we are just missing one thing location please pick a location: ")
 print("~~~*~~~*~~~*~~~*~~~*~~~*~~~*~~~*~~~*~~~*~~~*~~~*~~~*")
 print(f"one day, {name} wanted to go get {place_to_eat} but {subject_pr} didn't know how to get there so {subject_pr} searched it up on the internet but the nearest one was 12 miles away so {subject_pr} started walking and walking. Then {subject_pr} walked by {location} and after walking 12 miles {subject_pr} finally made it and got {object_pr} food ")
+
+
+
