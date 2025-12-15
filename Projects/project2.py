@@ -89,5 +89,57 @@ elif color== "9":
     sloth+=1
     gorilla+=1 
 
-print ("what matches you the best: 1 happy all the time ")
+you = input ("what matches you the best: 1 happy: 2 sad: 3 loveable: 4 Calm: 5 angry: ")
+
+if you== "1":
+    pig+=1
+    fox+=1
+
+elif you== "2":
+    sloth+=1
+    whale+=1
+
+elif you == "3":
+    hamster+=1
+    pig+=1
+
+elif you  == "4":
+    sloth+=1 
+
+elif you== "5":
+    cheetah+=1
+    lion+=1
+    gorilla+=1 
+
+hair= input("what color is your hair:1 brown: 2 blond: 3 ginger: 4 red: 5 blue: 6 black: 7 other: ")
+
+if hair== "1":
+    hamster+=1
+    cheetah+=1
+    sloth+=1 
+
+elif hair== "2" :
+    lion+=1
+
+elif hair== "3":
+    fox+=1
+
+elif hair== "4":
+    fox+=1
+    pig+=1 
+
+elif hair== "5":
+    whale+=1
+
+elif hair== "6":
+    gorilla+=1
+
+if gorilla > whale and gorilla >= fox and gorilla >= lion and gorilla >= sloth and gorilla >= pig and gorilla >= cheetah and gorilla >= hamster:
+    print ("you are strong like a gorilla! ")
+
+elif whale >= fox and whale >= lion and whale >= sloth and whale >= pig and whale >= cheetah and whale >= hamster: 
+    print ("you love to swim like a whale! ")
+
+elif fox >= lion and fox >= sloth and fox >= pig and fox >= cheetah and fox >= hamster: 
+    print (" you are fearless like a lion! ")
 
