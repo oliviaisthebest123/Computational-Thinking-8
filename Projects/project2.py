@@ -61,16 +61,14 @@ color = input("what is your favorite colors: 1 for red: 2 for orange: 3 yellow: 
 
 print("")
 
-if color== "1":
+if color == "1":
     fox+=1
 
-elif color== "2":
+if color== "2" or "3":
     cheetah+=1
 
-elif color== "3":
+if color== "3":
     lion+=1
-    cheetah+=1
-
 
 elif color== "4":
     gorilla+=1
@@ -118,9 +116,9 @@ hair= input("what color is your hair:1 brown: 2 blond: 3 ginger: 4 red: 5 blue: 
 print("")
 
 if hair== "1":
-    hamster+=1
-    cheetah+=1
+    hamster+=1   
     sloth+=1 
+    cheetah+=1
 
 elif hair== "2" :
     lion+=1
