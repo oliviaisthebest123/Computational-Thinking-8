@@ -111,7 +111,7 @@ elif you== "5":
     lion+=1
     gorilla+=1 
 
-hair= input("what color is your hair:1 brown: 2 blond: 3 ginger: 4 red: 5 blue: 6 black: 7 other: ")
+hair= input("what color is your hair: 1 brown: 2 blond: 3 ginger: 4 red: 5 blue: 6 black: 7 other: ")
 
 print("")
 
